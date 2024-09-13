@@ -1,0 +1,27 @@
+.red-text {
+    color: red;
+}
+
+.pink-text {
+    color: darkgoldenrod;
+}
+
+#main {
+    color: brown;
+}
+
+html {
+    background-color: lightgreen;
+}
+
+p[draggable]{
+    color: #ff0000;
+}
+
+p[drage = "false"]{
+    color: rgba(58, 114, 45, 0.893);
+}
+
+*{
+    color: silver;
+}
