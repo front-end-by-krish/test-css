@@ -1,13 +1,27 @@
 h2{
     margin-top: -10px;
     margin-left: -20px;
-    margin-right: -220px;
+    margin-right: -20px;
     
     font-size: 20px;
     font-style: oblique;
     padding: 10px;
     color: aliceblue;
     background-color: rgb(85, 240, 85);
+}
+
+@media(min-width: 300px){
+    h2{
+        margin-top: -10px;
+        margin-left: -20px;
+        margin-right: -300px;
+        
+        font-size: 20px;
+        font-style: oblique;
+        padding: 10px;
+        color: aliceblue;
+        background-color: rgb(85, 240, 85);
+    }
 }
 
 @media(min-width: 1200px){
